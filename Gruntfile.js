@@ -504,7 +504,7 @@ module.exports = function (grunt) {
 
 
 
-    buildcontrol: {
+  buildcontrol: {
     options: {
       dir: 'dist',
       commit: true,
