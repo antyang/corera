@@ -513,7 +513,8 @@ module.exports = function (grunt) {
     },
     pages: {
       options: {
-        remote: 'git@github.com:antyang/corera.git',
+        // remote: 'git@github.com:antyang/corera.git',
+        remote: 'https://github.com/antyang/corera.git',
         branch: 'gh-pages'
       }
     },
