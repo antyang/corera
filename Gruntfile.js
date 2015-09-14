@@ -11,6 +11,8 @@ module.exports = function (grunt) {
   } catch(e) {
     localConfig = {};
   }
+  
+  grunt.loadNpmTasks('grunt-build-control');
 
   // Load grunt tasks automatically, when needed
   require('jit-grunt')(grunt, {
