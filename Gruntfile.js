@@ -373,27 +373,27 @@ module.exports = function (grunt) {
       }
     },
 
-    buildcontrol: {
-      options: {
-        dir: 'dist',
-        commit: true,
-        push: true,
-        connectCommits: false,
-        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
-      },
-      heroku: {
-        options: {
-          remote: 'heroku',
-          branch: 'master'
-        }
-      },
-      openshift: {
-        options: {
-          remote: 'openshift',
-          branch: 'master'
-        }
-      }
-    },
+    // buildcontrol: {
+    //   options: {
+    //     dir: 'dist',
+    //     commit: true,
+    //     push: true,
+    //     connectCommits: false,
+    //     message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+    //   },
+    //   heroku: {
+    //     options: {
+    //       remote: 'heroku',
+    //       branch: 'master'
+    //     }
+    //   },
+    //   openshift: {
+    //     options: {
+    //       remote: 'openshift',
+    //       branch: 'master'
+    //     }
+    //   }
+    // },
 
     // Run some tasks in parallel to speed up the build process
     concurrent: {
